@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import { DefineProps } from "vue";
 
-const props = defineProps({
+defineProps({
   title: String,
   description: String,
   imageUrl: String,
