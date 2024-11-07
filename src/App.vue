@@ -101,7 +101,6 @@ const cards = ref([
 .card-grid {
   display: grid;
   gap: 16px;
-  /*Responsive grid with media queries */
   grid-template-columns: 1fr;
 }
 
