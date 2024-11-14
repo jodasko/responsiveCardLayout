@@ -13,86 +13,53 @@
 import { ref } from "vue";
 import Card from "./components/Card.vue";
 
+const urlImage = "./src/assets/";
+
 const cards = ref([
   {
-    title: "Card 1",
+    title: "Huricane",
     description: "This is the first card.",
-    imageUrl: "path/to/image1.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
   {
-    title: "Card 2",
+    title: "Huricane",
     description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
-  },
-  {
-    title: "Card 2",
-    description: "This is the second card.",
-    imageUrl: "path/to/image2.jpg",
+    imageUrl: `${urlImage}huricane.jpg`,
   },
 ]);
 </script>
